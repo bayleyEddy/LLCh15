@@ -147,11 +147,14 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Date Created" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVG-Ux-oy4">
-                                        <rect key="frame" x="0.0" y="126" width="361" height="431"/>
+                                        <rect key="frame" x="0.0" y="125.99999999999999" width="361" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="CP0-sA-sfd">
+                                        <rect key="frame" x="0.0" y="154.33333333333329" width="361" height="402.66666666666674"/>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="2bF-Kh-bgu" firstAttribute="leading" secondItem="vh7-i6-twR" secondAttribute="leading" id="3Ob-1z-sxm"/>
@@ -188,6 +191,7 @@
                     <navigationItem key="navigationItem" id="h7k-Bp-rjE"/>
                     <connections>
                         <outlet property="dateLabel" destination="LVG-Ux-oy4" id="iYa-qY-a0Z"/>
+                        <outlet property="imageView" destination="CP0-sA-sfd" id="qNj-0L-Qa1"/>
                         <outlet property="nameField" destination="Rop-N3-aTs" id="1WK-GO-oMX"/>
                         <outlet property="serialNumberField" destination="YVk-wC-KEm" id="uX6-uw-Psq"/>
                         <outlet property="valueField" destination="ZTE-40-FjW" id="Gbc-Ze-l78"/>
